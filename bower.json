@@ -1,0 +1,10 @@
+{
+  "name": "Site GeekHives",
+  "version": "1.0.0",
+  "dependencies": {
+    "Chart.js": "~1.0.2",
+    "Uploadcare": "uploadcare#~2.5.1",
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4"
+  }
+}

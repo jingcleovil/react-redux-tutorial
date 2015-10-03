@@ -1,0 +1,39 @@
+{
+  "name": "GH-ReduxTutorial",
+  "version": "1.0.0",
+  "description": "React Components",
+  "main": "src/server/index.js",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "watch": "webpack --config config/webpack.js --watch --colors",
+    "build": "NODE_ENV=production COMPRESS=1 webpack --config config/webpack-home.js --output-file home-bundle.js"
+  },
+  "author": "GeekHives",
+  "license": "Private",
+  "dependencies": {
+    "alt": "^0.17.3",
+    "debug": "^2.2.0",
+    "express": "^4.13.3",
+    "fixed-data-table": "^0.4.6",
+    "flux": "^2.1.1",
+    "history": "^1.9.0",
+    "immutable": "^3.7.5",
+    "react": "^0.13.3",
+    "react-bootstrap": "^0.25.1",
+    "react-redux": "^2.1.2",
+    "react-router": "^1.0.0-rc1",
+    "redux": "^3.0.0",
+    "redux-thunk": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.24",
+    "babel-loader": "^5.3.2",
+    "babel-runtime": "^5.8.24",
+    "gulp": "^3.9.0",
+    "jest-cli": "^0.5.4",
+    "laravel-elixir": "^3.2.8",
+    "lodash": "^3.10.1",
+    "webpack": "^1.12.1"
+  }
+}
