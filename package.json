@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/server/index.js",
     "watch": "webpack --config config/webpack.js --watch --colors",
-    "build": "NODE_ENV=production COMPRESS=1 webpack --config config/webpack-home.js --output-file home-bundle.js"
+    "build": "NODE_ENV=production COMPRESS=1 webpack --config config/webpack.js --output-filename bundle.js"
   },
   "author": "GeekHives",
   "license": "Private",
