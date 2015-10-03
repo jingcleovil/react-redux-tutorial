@@ -1,4 +1,4 @@
-# GeekHives React Components
+# GH React-Redux Boilerplate
 
 ## How to start
 
